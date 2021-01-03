@@ -23,7 +23,7 @@ h1{
 header .inicio h2{
 	float:right;
 	margin-right:30px;
-	margin-top:25px;
+	margin-top:33px;
 }
 
 nav{
@@ -82,4 +82,52 @@ footer h5{
 	font-size:30px;
 	margin-left:50px;
 
+}
+ @media screen and (max-width:1050px){
+	 .inicio h1{
+		 width:100%;
+	 }
+ }
+	
+ 
+ @media screen and (max-width:1050px){
+	.inicio h1{
+		font-size: 25px;
+	}
+	
+}
+
+@media screen and (max-width:570px){
+	.inicio h1{
+		font-size: 20px;
+	}
+	
+}
+
+@media screen and (max-width:1050px){
+	header .inicio h2{
+		font-size: 10px;
+	}
+	
+}
+
+@media screen and (max-width:1000px){
+	nav .lista a{
+		font-size: 10px;
+	}
+	
+}
+
+@media screen and (max-width:570px){
+	nav .lista a{
+		font-size: 10px;
+	}
+	
+}
+
+@media screen and (max-width:570px){
+	nav .lista a{
+		margin-left: 10px;
+	}
+	
 }
