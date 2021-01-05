@@ -36,7 +36,7 @@ nav{
 a{
 	color:white;
 	font-size: 25px;
-	margin-left: 40px;
+	margin-left: 70px;
 }
 
 section{
@@ -83,17 +83,21 @@ footer h5{
 	margin-left:50px;
 
 }
- @media screen and (max-width:1050px){
-	 .inicio h1{
-		 width:100%;
-	 }
- }
+
 	
  
- @media screen and (max-width:1050px){
+ @media screen and (max-width:1150px){
 	.inicio h1{
 		font-size: 25px;
+		margin-left: 5px;
 	}
+
+	a{
+		color:white;
+		font-size: 25px;
+		margin-left: 30px;
+	}
+
 	
 }
 
@@ -104,30 +108,64 @@ footer h5{
 	
 }
 
+@media screen and (max-width:460px){
+	.inicio h1{
+		font-size: 15px;
+	}
+	
+}
+
 @media screen and (max-width:1050px){
 	header .inicio h2{
-		font-size: 10px;
+		font-size: 15px;
 	}
 	
 }
 
 @media screen and (max-width:1000px){
 	nav .lista a{
-		font-size: 10px;
+		font-size: 15px;
 	}
 	
 }
 
-@media screen and (max-width:570px){
+@media screen and (max-width:750px){
 	nav .lista a{
 		font-size: 10px;
 	}
 	
 }
 
-@media screen and (max-width:570px){
+@media screen and (max-width:860px){
+	nav .lista a{
+		margin-left: 20px;
+	}
+	
+}
+
+@media screen and (max-width:450px){
 	nav .lista a{
 		margin-left: 10px;
+	}
+		
+	article img{
+		width:100px;
+		margin-top: 30px;
+		margin-left: 10px;
+	}
+	
+}
+
+
+@media screen and (max-width:400px){
+	nav .lista a{
+		margin-left: 0px;
+	}
+		
+	article img{
+		width:100px;
+		margin-top: 30px;
+		margin-left: 5px;
 	}
 	
 }
