@@ -58,6 +58,13 @@ section p{
 	margin-bottom: 30p
 }
 
+section img{
+	width:450px;
+	margin-top: 30px;
+	margin-left: 50px;
+
+}
+
 article{
 	width:30%;
 	float:right;
@@ -105,6 +112,23 @@ footer h5{
 	.inicio h1{
 		font-size: 20px;
 	}
+
+	
+	section{
+		width:100%;
+		float:left;
+		background-color:rgb(180,180,180);
+		height:600px;
+	}
+
+	article{
+		width:100%;
+		float:left;
+		height:600px;
+		background-color:orange;
+	}
+	
+
 	
 }
 
@@ -139,6 +163,13 @@ footer h5{
 		height:120px;
 		background-color:rgb(200,200,200);
 	}
+	section img{
+		width:300px;
+		margin-top: 30px;
+		margin-left: 50px;
+	
+	}
+	
 	
 }
 
