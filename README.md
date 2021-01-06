@@ -1,3 +1,4 @@
 # O-instalador
- Site para teste versionado
-Adicionei essa linha direto no github!
+ Site para teste versionado.
+ Testes de responsividade.
+
