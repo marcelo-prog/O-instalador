@@ -58,6 +58,13 @@ section p{
 	margin-bottom: 30p
 }
 
+section img{
+	width:450px;
+	margin-top: 30px;
+	margin-left: 50px;
+
+}
+
 article{
 	width:30%;
 	float:right;
@@ -97,24 +104,51 @@ footer h5{
 		font-size: 25px;
 		margin-left: 30px;
 	}
- }
-	
-@media screen and (max-width:1050px){
-	header .inicio h2{
-		font-size: 15px;
-	}
-}	
 
-@media screen and (max-width:1000px){
-	nav .lista a{
+	
+}
+
+@media screen and (max-width:570px){
+	.inicio h1{
+		font-size: 20px;
+	}
+
+	
+	section{
+		width:100%;
+		float:left;
+		background-color:rgb(180,180,180);
+		height:600px;
+	}
+
+	article{
+		width:100%;
+		float:left;
+		height:600px;
+		background-color:orange;
+	}
+	
+
+	
+}
+
+@media screen and (max-width:460px){
+	.inicio h1{
 		font-size: 15px;
 	}
 	
 }
 
-@media screen and (max-width:860px){
+@media screen and (max-width:1050px){
+	header .inicio h2{
+		font-size: 15px;
+	}
+	
+}
+
+@media screen and (max-width:1000px){
 	nav .lista a{
-		margin-left: 20px;
+		font-size: 15px;
 	}
 	
 }
@@ -129,19 +163,19 @@ footer h5{
 		height:120px;
 		background-color:rgb(200,200,200);
 	}
+	section img{
+		width:300px;
+		margin-top: 30px;
+		margin-left: 50px;
 	
-}
-
-@media screen and (max-width:570px){
-	.inicio h1{
-		font-size: 20px;
 	}
 	
+	
 }
 
-@media screen and (max-width:460px){
-	.inicio h1{
-		font-size: 15px;
+@media screen and (max-width:860px){
+	nav .lista a{
+		margin-left: 20px;
 	}
 	
 }
@@ -158,6 +192,7 @@ footer h5{
 	}
 	
 }
+
 
 @media screen and (max-width:400px){
 	nav .lista a{
