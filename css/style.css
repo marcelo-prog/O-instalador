@@ -28,15 +28,17 @@ header .inicio h2{
 
 nav{
 	width:100%;
-	height:30px;
+	height:32px;
 	background-color:gray;
+	
 
 }
 
-a{
+a{		
 	color:white;
 	font-size: 25px;
 	margin-left: 70px;
+
 }
 
 section{
@@ -90,25 +92,31 @@ footer h5{
 	margin-left:50px;
 
 }
+ @media screen and (max-width:1280px){
+	a{
+		color:white;
+		font-size: 25px;
+		margin-left: 50px;
 
-	
+	}
+ }	
  
- @media screen and (max-width:1150px){
+ @media screen and (max-width:1200px){
 	.inicio h1{
 		font-size: 25px;
 		margin-left: 15px;
 	}
-
-	a{
+	
+		a{
 		color:white;
-		font-size: 25px;
+		font-size: 20px;
 		margin-left: 30px;
 	}
 
 	
 }
 
-@media screen and (max-width:570px){
+@media screen and (max-width:610px){
 	.inicio h1{
 		font-size: 20px;
 	}
@@ -132,7 +140,7 @@ footer h5{
 	
 }
 
-@media screen and (max-width:460px){
+@media screen and (max-width:500px){
 	.inicio h1{
 		font-size: 15px;
 	}
@@ -145,17 +153,29 @@ footer h5{
 	}
 	
 }
-
-@media screen and (max-width:1000px){
-	nav .lista a{
+@media screen and (max-width:890px){
+	a{
 		font-size: 15px;
 	}
-	
-}
-
-@media screen and (max-width:750px){
-	nav .lista a{
+	header .inicio h2{
 		font-size: 10px;
+	}
+}
+@media screen and (max-width:750px){
+	nav .menu{
+		position:absolute;
+		float:left;
+		margin-left: 20px;
+		
+		width:32px;
+		height:32px;
+		background-image: url(../imagens/hamburguer.png);
+		background-size: 100% 100%;
+		display:inline-block
+	}
+
+	nav .lista a{
+		font-size: 0px;
 	}
 	
 	header .inicio{
@@ -170,13 +190,6 @@ footer h5{
 	
 	}
 	
-	
-}
-
-@media screen and (max-width:860px){
-	nav .lista a{
-		margin-left: 20px;
-	}
 	
 }
 
