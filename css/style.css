@@ -43,6 +43,7 @@ a{
 
 .mobile{
 	display:none;
+	text-decoration: none;
 	width:100px;
 	height:200px;
 	display: inline-block;
