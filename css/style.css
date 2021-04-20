@@ -42,19 +42,38 @@ a{
 
 }
 
-aside{
+.mobile{
 	background-color:rgb(200,200,200);
-	display:none;
-}
 
-aside.mobile ul li{
-	border:1px solid black;
-	text-align:center;
+	
+	
+	position:absolute;
+	float:left;
+	margin-left: 20px;
+	cursor:pointer;
+	width:32px;
+	height:32px;
+	background-image: url(../imagens/hamburguer.png);
+	background-size: 100% 100%;
+	transition: 0.7s;
 	
 }
 
-aside.mobile ul li a{
+.mobile ul li{
+	text-decoration: none;
+	width:100%;
+	background-color: white;
+
+	border:1px solid black;
+	text-align:center;
+
+
+	
+}
+
+.mobile ul li a{
 	color:black;
+	z-index: 999;
 }
 
 section{
@@ -178,8 +197,8 @@ footer h5{
 	}
 }
 @media screen and (max-width:750px){
-	nav .menu{
-		position:absolute;
+	.mobile{
+		background-color:rgb(200,200,200);
 		float:left;
 		margin-left: 20px;
 		cursor:pointer;
@@ -188,19 +207,20 @@ footer h5{
 		background-image: url(../imagens/hamburguer.png);
 		background-size: 100% 100%;
 		transition: 0.7s;
+		
 	}
 	
 	
-	nav .lista a{
+
+	nav a{
 		display:none;
 	}
 
-	aside{
-		
+	
 	
 
 	
-	}
+	
 	
 	header .inicio{
 		width:100%;
