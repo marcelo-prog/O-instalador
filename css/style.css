@@ -12,6 +12,7 @@ header .inicio{
 	width:100%;
 	height:100px;
 	background-color:rgb(201, 199, 199);
+	
 }
 
 h1{
@@ -26,10 +27,11 @@ header .inicio h2{
 	margin-top:33px;
 }
 
-nav {
+nav.menu{
 	width:100%;
 	height:32px;
 	background-color:gray;
+
 	
 }
 
@@ -42,38 +44,44 @@ a{
 
 }
 
-.mobile{
-	background-color:rgb(200,200,200);
-
-	
-	
-	position:absolute;
+nav.mobile{
+	z-index: 999;
 	float:left;
-	margin-left: 20px;
-	cursor:pointer;
-	width:32px;
+	width: 32px;
 	height:32px;
-	background-image: url(../imagens/hamburguer.png);
-	background-size: 100% 100%;
-	transition: 0.7s;
+	margin-left: 10px;
+	cursor:pointer;
+	background-image:url('../imagens/hamburguer.png') ;
+
+	background-image:rgb(180,180,180); 
+	display:none;
+	
+
+}
+
+
+nav.mobile ul {
+	width:300px;
+	height:200px;
+
+	display:none;
+	
 	
 }
 
-.mobile ul li{
-	text-decoration: none;
+nav.mobile ul li{
 	width:100%;
 	background-color: white;
-
 	border:1px solid black;
 	text-align:center;
-
-
 	
 }
 
-.mobile ul li a{
+nav.mobile ul li a{
+	font-size: x-large;
+	font-weight: bold;
 	color:black;
-	z-index: 999;
+	
 }
 
 section{
@@ -81,7 +89,9 @@ section{
 	float:left;
 	background-color:rgb(180,180,180);
 	height:600px;
+	
 }
+
 
 section h2{
 	margin-top: 30px;
@@ -107,7 +117,19 @@ article{
 	float:right;
 	height:600px;
 	background-color:orange;
+	
 }
+
+article h4{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+article p{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
 
 article img{
 	width:100px;
@@ -119,7 +141,9 @@ footer{
 	width:100%;
 	height:150px;
 	background-color: gray;
+	
 }
+
 
 footer h5{
 	padding-top: 20px;
@@ -196,23 +220,31 @@ footer h5{
 		font-size: 10px;
 	}
 }
+
 @media screen and (max-width:750px){
-	.mobile{
-		background-color:rgb(200,200,200);
+	nav.mobile{
+		z-index: 999;
 		float:left;
-		margin-left: 20px;
-		cursor:pointer;
-		width:32px;
+		width: 32px;
 		height:32px;
-		background-image: url(../imagens/hamburguer.png);
-		background-size: 100% 100%;
-		transition: 0.7s;
-		
+		margin-left: 10px;
+		cursor:pointer;
+		background-image:url('../imagens/hamburguer.png') ;
+		display:inline-block;
+
 	}
+
+	nav.mobile{
+		position:relative;
 	
+	
+	}
+
+
+
 	
 
-	nav a{
+	nav.menu a{
 		display:none;
 	}
 

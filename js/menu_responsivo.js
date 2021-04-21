@@ -2,8 +2,8 @@
 
 $(function(){
    alert('arquivo carregado');
-   $('aside.mobile').click(function(){
-        $('aside.mobile ').find('ul').slideToggle();
+   $('nav.mobile').click(function(){
+        $('nav.mobile').find('ul').slideToggle();
    })
      
 })
