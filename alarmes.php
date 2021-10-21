@@ -18,19 +18,17 @@
 			
 		</header>
 
-		<nav>
-			<div class="menu">
-					
-			</div><!--menu-->	
+		<nav class="menu">
+	
 
 			<div class="lista">
 					
-                    <a href="index.html">Home</a>
-					<a href="pag2.html">Alarmes</a>
-					<a href="cercas.html">Cercas Elétricas</a>
-					<a href="cameras.html">Sistemas de Câmeras</a>
-					<a href="portoes.html">Portões Eletrônicos</a>
-					<a href="interfones.html">Interfones</a>
+                    <a href="index.php">Home</a>
+					<a href="pag2.php">Alarmes</a>
+					<a href="cercas.php">Cercas Elétricas</a>
+					<a href="cameras.php">Sistemas de Câmeras</a>
+					<a href="portoes.php">Portões Eletrônicos</a>
+					<a href="interfones.php">Interfones</a>
 					
 			</div><!--lista-->	
 			

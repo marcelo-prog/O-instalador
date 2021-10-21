@@ -12,25 +12,22 @@
 		<header>
 
 			<div class="inicio">
-				<h1>MEGA INSTALADOR: Interfones e video porteiros</h1>
+				<h1>MEGA INSTALADOR :Portões eltrônicos</h1>
 				<h2>Manuais, Cursos, e muito mais!  </h2>
 			</div><!--inicio-->	
 			
 		</header>
 
-		<nav>
-			<div class="menu">
-					
-			</div><!--menu-->	
+		<nav class="menu">
 
 			<div class="lista">
-									
-                <a href="index.html">Home</a>
-                <a href="pag2.html">Alarmes</a>
-                <a href="cercas.html">Cercas Elétricas</a>
-                <a href="cameras.html">Sistemas de Câmeras</a>
-                <a href="portoes.html">Portões Eletrônicos</a>
-                <a href="interfones.html">Interfones</a>
+					
+                <a href="index.php">Home</a>
+                <a href="pag2.php">Alarmes</a>
+                <a href="cercas.php">Cercas Elétricas</a>
+                <a href="cameras.php">Sistemas de Câmeras</a>
+                <a href="portoes.php">Portões Eletrônicos</a>
+                <a href="interfones.php">Interfones</a>
 					
 			</div><!--lista-->	
 			
@@ -38,11 +35,10 @@
 
 		<section>
 			
-			<h2>INTERFONES e VIDEO PORTEIROS</h2>
-			<p> Controle de acesso ao seu imovel com praticidade e segurança!!</p>
-            <p> Sistemas de travas elétricas e fechaduras elétricas agregam mais segurança ao seu <br>
-                patrimonio!</p>
-			<img src="imagens/interfones.jpg" alt="Interfone">
+			<h2>PORTÕES ELETRÔNICOS</h2>
+			<p> Conforto e segurânça para você e sua familia!</p>
+			<p> Portões de alta performançe permitem menor tempo de exposição sua e de seus familiares.</p>
+			<img src="imagens/portoes.jpg" alt="Portão Eletrônico">
 
 			
 		</section>

@@ -12,25 +12,21 @@
 		<header>
 
 			<div class="inicio">
-				<h1>MEGA INSTALADOR: Câmeras.</h1>
+				<h1>MEGA INSTALADOR: Cercas elétricas</h1>
 				<h2>Manuais, Cursos, e muito mais!  </h2>
 			</div><!--inicio-->	
 			
 		</header>
 
-		<nav>
-			<div class="menu">
-					
-			</div><!--menu-->	
-
+		<nav class="menu">
+		
 			<div class="lista">
-								
-                <a href="index.html">Home</a>
-                <a href="pag2.html">Alarmes</a>
-                <a href="cercas.html">Cercas Elétricas</a>
-                <a href="cameras.html">Sistemas de Câmeras</a>
-                <a href="portoes.html">Portões Eletrônicos</a>
-                <a href="interfones.html">Interfones</a>
+                    <a href="index.php">Home</a>
+					<a href="alarmes.php">Alarmes</a>
+					<a href="cercas.php">Cercas Elétricas</a>
+					<a href="cameras.php">Sistemas de Câmeras</a>
+					<a href="portoes.php">Portões Eletrônicos</a>
+					<a href="interfones.php">Interfones</a>
 					
 			</div><!--lista-->	
 			
@@ -38,10 +34,10 @@
 
 		<section>
 			
-			<h2>SISTEMAS DE CÂMERAS</h2>
-			<p> Visualização e gravação de todos* os ambientes e áreas, com qualidade e com possibilidade <br>
-			 de acesso para visualização remota* .<br>
-			<img src="imagens/cameras.jpg" alt="Sistema de câmeras">
+			<h2>CERCAS ELÉTRICAS</h2>
+			<p> Proteja seu perimetro dos invasores com cercas eletricas e concertinas.</p>
+			<p> Cercas eficientes homologadas pelo "inmetro" com alta qualidade e resistencia.</p>
+			<img src="imagens/cerca2.jpg" alt="Cerca elétrica">
 
 			
 		</section>
